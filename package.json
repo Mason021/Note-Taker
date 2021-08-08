@@ -7,7 +7,7 @@
     "test": "jest",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "Mason Cain",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
