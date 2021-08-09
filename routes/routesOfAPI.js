@@ -26,7 +26,7 @@ module.exports = function (application) {
     // POST Method to add to the notes
     application.post("/api/notes", function (req, res) {
 
-        // Set unique id to entry
+        // Set unique id to info entered
         if (noteInfo.length == 0) {
             req.body.id = "0";
         } else {
@@ -68,7 +68,7 @@ module.exports = function (application) {
         }
 
 
-        // Write notes data to database
+        // Writes the notes data to the database
         writeInfoToDB(noteInfo);
 
     });

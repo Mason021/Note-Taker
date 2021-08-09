@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
-// This is so the JS files are included
+// This is so the route JS files are included
 require("./routes/routesOfAPI")(app);
 require("./routes/routesOfHTML")(app);
 
