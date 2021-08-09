@@ -17,6 +17,8 @@ Need to keep track of a lot of information? it's easy to forget or be unable to 
   
 ## Usage 
 
+[here](https://mason-note-taker.herokuapp.com/) is the live project
+
 After clicking on the start button, you now have the ability to take and save notes.  Enter note title and text body which will allow you to save using the icon in the upper right.  notes will be stored on the left and can be recalled by clicking on them.  The trash icon beside will allow you to delete old or unwanted notes.
   
 ![working-project](https://github.com/Mason021/Note-Taker/blob/main/gif-video-image/gif%20in%20use.gif)
